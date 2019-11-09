@@ -12,6 +12,13 @@ until quit do
     case user_input
         when "q"
             quit = true
+        when "1"
+            puts "What's your first number?"
+            num_1 = gets.chomp.to_i
+            puts "What's your second number?"
+            num_2 = gets.chomp.to_i
+            result = num_1 + num_2 
+            puts result
         end 
 end 
 
